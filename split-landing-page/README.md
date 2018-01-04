@@ -1,5 +1,7 @@
 ## [Create a Split Landing Page With HTML, CSS & JS](https://www.youtube.com/watch?v=oRmQN244Ir0)
 
+### Check it out [here](https://arisweedler.github.io/traversy-tutorials/split-landing-page/).
+
 This seemed like a pretty cool project, so I wanted to make it. Doing anything
 major in CSS always feels kinda hacky to me, but the results are incredible!!
 I pretty much followed him exactly, except that I changed the pictures and
