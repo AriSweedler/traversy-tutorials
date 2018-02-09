@@ -1,0 +1,10 @@
+<ul>
+	<lh>Users:</lh>
+	<% users.forEach( (user) => { %>
+		<li>
+			<%= user.first_name %> <%= user.last_name %> (<%= user._id %>)
+			- <a href="#" id="<%= user._id %>" class="delete-user-btn">Delete</a>
+		</li>
+		<br>
+	<% } ) %>
+</ul>

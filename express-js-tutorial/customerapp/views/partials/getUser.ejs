@@ -1,0 +1,23 @@
+<h2>Add user</h2>
+
+<% if (errors) { -%>
+	<ul>
+		<lh>Errors:</lh>
+		<% errors.forEach( (error) => { %>
+			<li><%= error.msg %> </li>
+		<% } ) %>
+	</ul>
+<% } -%>
+
+<form method="POST" action="/users/add ">
+	<label>First name:</label><br>
+	<input type="text" name="first_name">
+	<br>
+	<label>Last name:</label><br>
+	<input type="text" name="last_name">
+	<br>
+	<label>Age:</label><br>
+	<input type="text" name="age">
+	<br>
+	<input type="submit" value="Submit new user">
+</form>
