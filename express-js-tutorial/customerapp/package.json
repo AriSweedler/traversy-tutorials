@@ -16,6 +16,6 @@
     "express": "^4.16.2",
     "express-validator": "^4.3.0",
     "mongojs": "^2.5.0",
-    "request": "^2.83.0"
+    "request": "^2.88.0"
   }
 }
