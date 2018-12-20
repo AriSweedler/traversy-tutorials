@@ -1,0 +1,16 @@
+{
+  "name": "paypal-sample",
+  "version": "1.0.0",
+  "description": "Ari Sweedler's attempt to use PayPal's API through a Node.js application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ari Sweedler",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "paypal-rest-sdk": "^1.8.1"
+  }
+}
